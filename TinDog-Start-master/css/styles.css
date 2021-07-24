@@ -114,8 +114,21 @@ color: #fff;
  /*pricing section*/
  #pricing{
      padding: 100px;
+     text-align: center;
  }
 
  .pricing-col{
      padding: 3% 2%;
+ }
+
+ @media(max-width: 992px)
+ {
+     .title-img{
+     position:static;
+     transform: rotate(0);
+     width: 30%;
+ }
+#title{text-align: center;
+
+}}
  }
