@@ -1,31 +1,33 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+
+p{
+    color:#8f8f8f ;
+}
+/*heading*/
+.big-heading{font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+
+}
+
 #title{
     background-color: #ff4c68;
     color: white;
 }
-body{
-    font-family: 'Montserrat';
-}
+
+
 .container-fluid{
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
-h1{font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-    font-size: 3.5rem;
-}
-h2{font-family: 'Montserrat';
-    font-size: 3rem;
-line-height: 1.5;
 
-
-}
-h3{
-    font-family: 'Montserrat';
-    font-weight:bold;
-}
-p{
-    color:#8f8f8f ;
-}
 
 .bg{
     background-color: #ff4c68;
@@ -60,16 +62,19 @@ p{
     transform: rotate(25deg);
     position: absolute;
 }
+/*feature*/
 
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
+.feature-tite{
+    font-size: 1.5rem;
+    
+}
 .feature-box{
-    text-align:center;
-    padding: 5%;
+     padding: 5%;
 }
 
 .icon{
@@ -85,14 +90,13 @@ p{
 
 #testimonials{
 
-text-align: center;
+
 background-color: #ef8172;
 color: #fff;
 }
-
-.carousel-item{
-    padding: 7% 15%;
-
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonials-image{
@@ -103,7 +107,7 @@ color: #fff;
 
 #press{
     background-color: #ef8172;
-    text-align: center;
+    
     padding: 3%;
 }
 
@@ -114,7 +118,15 @@ color: #fff;
  /*pricing section*/
  #pricing{
      padding: 100px;
-     text-align: center;
+     
+ }
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+ .price-text{
+     font-size: 3rem;
+     line-height: 1.5;
  }
 
  .pricing-col{
@@ -125,8 +137,8 @@ color: #fff;
  #cta{
      background-color: #ff4c68;
      color: #fff;
-     padding: 7% 15%;
-     text-align: center;
+     
+     
  }
 
  .cta-heading{
@@ -135,10 +147,8 @@ color: #fff;
      line-height: 1.5;
  }
 /*footer section*/
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-
+.social-icon{
+    margin: 20px 10px;
 }
 
 
